@@ -1,11 +1,13 @@
+import slider1 from '../assets/slider_1.jpeg';
+import slider2 from '../assets/slider_2.jpeg';
+import slider3 from '../assets/slider_3.jpeg';
+import slider4 from '../assets/slider_4.jpeg';
+import slider5 from '../assets/slider_5.jpeg';
+import slider6 from '../assets/slider_6.jpeg';
 import React, { useState } from 'react';
 
 export function CarouselDefault() {
-  const images = [
-    "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80",
-    // "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-    "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80",
-  ];
+  const images = [slider1, slider2, slider3, slider4, slider5, slider6];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
