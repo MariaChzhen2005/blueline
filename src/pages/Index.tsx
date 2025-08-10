@@ -210,7 +210,7 @@ function Index() {
           transition={{ staggerChildren: 0.08 }}
           style={{ gridTemplateColumns: windowWidth < 768 ? '1fr' : 'repeat(5, 1fr)' }}
         >
-          <a href="/" className="group block no-underline hover:no-underline">
+          <a href="index" className="group block no-underline hover:no-underline">
             <motion.div
               variants={listItemMotionVariants}
               className="flex h-[80px] items-center justify-center bg-[#ECECEC] p-[20px] transition-shadow duration-200 group-hover:shadow-sm"
@@ -222,7 +222,7 @@ function Index() {
             </motion.div>
           </a>
 
-          <a href="/" className="group block no-underline hover:no-underline">
+          <a href="index" className="group block no-underline hover:no-underline">
             <motion.div
               variants={listItemMotionVariants}
               className="flex h-[80px] items-center justify-center bg-[#ECECEC] p-[20px] transition-shadow duration-200 group-hover:shadow-sm"
@@ -234,7 +234,7 @@ function Index() {
             </motion.div>
           </a>
 
-          <a href="/" className="group block no-underline hover:no-underline">
+          <a href="index" className="group block no-underline hover:no-underline">
             <motion.div
               variants={listItemMotionVariants}
               className="flex h-[80px] items-center justify-center bg-[#ECECEC] p-[20px] transition-shadow duration-200 group-hover:shadow-sm"
@@ -246,7 +246,7 @@ function Index() {
             </motion.div>
           </a>
 
-          <a href="/" className="group block no-underline hover:no-underline">
+          <a href="index" className="group block no-underline hover:no-underline">
             <motion.div
               variants={listItemMotionVariants}
               className="flex h-[80px] items-center justify-center bg-[#ECECEC] p-[20px] transition-shadow duration-200 group-hover:shadow-sm"
@@ -258,7 +258,7 @@ function Index() {
             </motion.div>
           </a>
 
-          <a href="/" className="group block no-underline hover:no-underline">
+          <a href="index" className="group block no-underline hover:no-underline">
             <motion.div
               variants={listItemMotionVariants}
               className="flex h-[80px] items-center justify-center bg-[#ECECEC] p-[20px] transition-shadow duration-200 group-hover:shadow-sm"
