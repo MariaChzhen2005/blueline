@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/blueline/">
       <Menu />
       <Routes>
         <Route path="/" element={<Index />} />
