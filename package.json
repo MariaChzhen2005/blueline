@@ -1,8 +1,10 @@
+
 {
   "name": "blueline",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://mariachzhen2005.github.io/blueline",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
